@@ -14,7 +14,7 @@ body {
     height: 100%;
     font-family: Lora,"Helvetica Neue",Helvetica,Arial,sans-serif;
     color: #fff;
-    background-color: #1664DB;
+    background-color: #B6B6B6;
 }
 
 
@@ -25,7 +25,7 @@ body {
     padding: 100px 0;
     text-align: center;
     color: #fff;
-    background-color: #1664DB;
+    background-color: #B6B6B6;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
@@ -43,4 +43,12 @@ body {
 
 .intro .intro-body .intro-text {
     font-size: 18px;
+}
+
+.panel-content{
+	color:black;
+}
+
+.panel-footer-content {
+	color:#0B84E5;
 }

@@ -14,14 +14,14 @@
     .conversation
     {   
         padding:5px;
-        border-bottom:1px solid #ddd;
+     /*   border-bottom:1px solid #ddd;*/
         margin:0;
 
     }
 
     .message-wrap
     {
-        box-shadow: 0 0 3px #ddd;
+        box-shadow: 10px 0px 10px 10px #1A69E7;
         padding:0;
         overflow-y: auto;
         height: 100%;
@@ -54,8 +54,8 @@
 
     .send-wrap
     {
-        border-top: 1px solid #eee;
-        border-bottom: 1px solid #eee;
+        /*border-top: 1px solid #eee;
+        border-bottom: 1px solid #eee;*/
         padding:10px;
         /*background: #f8f8f8;*/
     }
@@ -68,17 +68,17 @@
     .highlight
     {
         background-color: #f7f7f9;
-        border: 1px solid #e1e1e8;
+     /*   border: 1px solid #e1e1e8;*/
     }
 
     .send-message-btn
     {
-        border-top-left-radius: 0;
+     /*   border-top-left-radius: 0;
         border-top-right-radius: 0;
         border-bottom-left-radius: 0;
 
         border-bottom-right-radius: 0;
-    }
+    */}
     .btn-panel
     {
         background: #f7f7f9;
@@ -109,7 +109,7 @@
     }
     .btn-panel-conversation .btn:first-child
     {
-        border-right: 1px solid #ddd;
+     /*   border-right: 1px solid #ddd;*/
     }
 
     .msg-wrap .media-heading
