@@ -1,0 +1,17 @@
+<template name="brief">
+	<div class="container">
+		<div class="row">
+			<div class="msg-wrap">
+			{{#each drafts}}
+				<div class="panel panel-default">
+					<div class="panel-heading">
+	 					<h3 class="panel-title">@{{this.saidBy}} says,</h3>    
+					</div>
+					<div class="panel-body">"{{this.message}}"</div>
+					<div class="panel-footer">Added By - {{this.addedBy}}</div>
+	            </div>
+	        {{/each}}    
+            </div>      
+		</div>
+	</div>
+</template>

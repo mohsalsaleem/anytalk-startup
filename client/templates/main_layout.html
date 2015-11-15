@@ -1,0 +1,29 @@
+<template name="mainLayout">
+	{{> header}}
+	{{#if currentUser}}
+	<div class="container">
+		<div class="row"> 
+			<div class="col-lg-7"> 
+				{{> chat}}
+			</div>
+			<div class="col-lg-5">
+				{{> brief}}
+			</div>
+		</div>
+	</div>
+	{{else}}
+		<header class="intro">
+        <div class="intro-body">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-8 col-md-offset-2">
+                        <h1 class="brand-heading">Please Login</h1>
+                        <p class="intro-text">Login buton is at the Top right corner...</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+	{{/if}}
+</template>
